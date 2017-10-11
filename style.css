@@ -1,0 +1,107 @@
+
+
+/* The Clockwork Studios Website CSS3 Code, written by Jack Fillingham (CEO). */
+
+
+body {
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container {
+    height 80px;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container h2 {
+	color: white;
+}
+
+.container a {
+	color: white;
+}
+
+span {
+    font-family: sans-serif, arial;
+    color: coral !important;
+}
+
+#headerLogo {
+    position: absolute;
+    left: 20px;
+    background-image:url(images/logo.jpg);
+    background-position: center;
+    background-size: 50px;
+    height: 56px;
+    width: 56px;
+}
+
+#navbar {
+    height: 10%;
+    position: static;
+	background-color: #333;
+	color: white;
+    text-align: center;
+}
+
+#navbar ul {
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#main-header a {
+	color: white;
+	text-decoration: none;
+    font-size: 16px;
+	padding-right: 15px;
+}
+
+#showcase {
+	background-color: #161616;
+    background-size:100%;
+	min-height:250px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1 {
+	color: white;
+	font-size: 75px;
+	line-height: 1.6em;
+}
+
+#sidebar {
+}
+
+#main-info {
+    width:auto;
+    text-align: center;
+}
+
+#main-footer {
+    color: white;
+    padding: 1px;
+    background-color: #333;
+    text-align: center;
+}
+
+#main-footer p {
+    font-family: monospace, sans-serif;
+}
